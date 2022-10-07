@@ -1815,8 +1815,8 @@ var CubismMatrix44 = (function () {
     };
     CubismMatrix44.prototype.loadIdentity = function () {
         var c = new Float32Array([
-            1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0,
-            1.0,
+            1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.08, 0.0,
+            1.1,
         ]);
         this.setMatrix(c);
     };
@@ -9429,8 +9429,7 @@ exports.BackImageName = 'back_class_normal.png';
 exports.GearImageName = 'icon_gear.png';
 exports.PowerImageName = 'CloseNormal.png';
 exports.ModelDir = [
-    'koharu',
-    'haruto'
+    'miku_sample_t04'
 ];
 exports.ModelDirSize = exports.ModelDir.length;
 exports.MotionGroupIdle = 'Idle';
