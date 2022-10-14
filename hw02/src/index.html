@@ -116,11 +116,11 @@
         el.style.marginTop = `${x}px`;
       });
       document.querySelector("#right").addEventListener("click", (e) => {
-        y -= 10;
+        y += 10;
         el.style.marginLeft = `${y}px`;
       });
       document.querySelector("#left").addEventListener("click", (e) => {
-        y += 10;
+        y -= 10;
         el.style.marginLeft = `${y}px`;
       });
       document.querySelector("#plus").addEventListener("click", (e) => {
